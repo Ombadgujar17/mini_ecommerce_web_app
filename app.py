@@ -3,7 +3,6 @@ from pathlib import Path
 import pandas as pd
 import sys, os
 
-# Allow importing from routes/* without __init__.py
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 from routes.users.users import users_bp # type: ignore
